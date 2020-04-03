@@ -27,7 +27,7 @@ import {filterImageFromURL, deleteLocalFiles} from './util/util';
       const img_url = req.query.image_url;
 
       if (!img_url){
-        return res.status(400).send("image_url param is required");
+        return res.status(400).send({ message: "image_url param is required" });
       }
 
       await filterImageFromURL(img_url)
@@ -35,6 +35,9 @@ import {filterImageFromURL, deleteLocalFiles} from './util/util';
         return res.status(200).sendFile(filtered_img_path, () => { 
           deleteLocalFiles([filtered_img_path]); 
         });
+      })
+      .catch(error => {
+        return res.status(422).send({ message: "Failed to filter image" });
       });
     } 
   );
