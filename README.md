@@ -5,14 +5,14 @@ This is an image filtering microservice for Udagram. Udagram is a simple cloud a
 
 ### Tasks
 
-## Setup Node Environment
+- #### Setup Node Environment
 
-## Create a new endpoint in the `server.ts` file
+- #### Create a new endpoint in the `server.ts` file
 
-## Deploy your system in AWS Elastic Beanstalk
+- #### Deploy your system in AWS Elastic Beanstalk
 
 
-### Submission
+## Submission
 
 ## Local Deployment
 ```shell
