@@ -14,15 +14,15 @@ This is an image filtering microservice for Udagram. Udagram is a simple cloud a
 
 ## Submission
 
-## Local Deployment
-```shell
-npm i
-npm run dev
-```
-## Elastic Beanstalk Deployment URL (EB_URL)
-udagram-image-filter.us-east-1.elasticbeanstalk.com
+- ### Local Deployment
+    ```shell
+    npm i
+    npm run dev
+    ```
+- ### Elastic Beanstalk Deployment URL (EB_URL)
+    udagram-image-filter.us-east-1.elasticbeanstalk.com
 
-## Elastic Beanstalk Deployment Screenshot
+- ### Elastic Beanstalk Deployment Screenshot
 ![](deployment_screenshots/deployment_screenshot_shahid.png)
 
 
