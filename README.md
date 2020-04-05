@@ -14,6 +14,9 @@ This is an image filtering microservice for Udagram. Udagram is a simple cloud a
 
 ## Submission
 
+- ### GitHub Repo URL
+    https://github.com/Shahid1993/udagram-image-filter
+
 - ### Local Deployment
     ```shell
     npm i
